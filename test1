@@ -3,5 +3,3 @@ echo "Hello!, and CONGRATULATIONS"
 
 netstat -tulpn | grep LISTEN
 
-netstat -tulpn >> /home/adisa/jenkins/test1-results
-
