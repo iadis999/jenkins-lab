@@ -1,7 +1,7 @@
 #this is your first jenkins script
 echo "Hello!, and CONGRATULATIONS"
 
-netstat -tulpn | grep LISTEN
+sudo netstat -tulpn | grep LISTEN
 
-netstat -tulpn | grep LISTEN > /home/adisa/test1-results
+sudo netstat -tulpn | grep LISTEN > /home/adisa/test1-results
 
